@@ -71,13 +71,10 @@ The current job market, particularly for recent graduates, presents a unique set
 ### Demo
 
 
-
-
-
-https://github.com/user-attachments/assets/dbfcd246-78ef-4acd-b5f5-e8899943a67f
-
-
-
+<img width="1206" alt="Screenshot 2025-06-13 at 16 16 45" src="https://github.com/user-attachments/assets/daeccd72-2532-4b03-b218-94c3d1800cfc" />
+<img width="1170" alt="Screenshot 2025-06-13 at 16 16 25" src="https://github.com/user-attachments/assets/2a3167ed-58b5-47a1-b630-300e108e1249" />
+<img width="400" alt="Screenshot 2025-06-13 at 16 15 36" src="https://github.com/user-attachments/assets/7e9ec7f2-b4d2-4904-8f90-7f4000858765" />
+<img width="403" alt="Screenshot 2025-06-13 at 16 15 23" src="https://github.com/user-attachments/assets/c480eb2f-4b59-47d8-859f-5485eff2ba79" />
 
 
 ### 🤝 Contributiion
