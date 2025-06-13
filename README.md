@@ -38,8 +38,8 @@ cd dsa-revision-tool
 ### 2. Set up environment variables
 Create two .env files in the root of the project and add your OpenAI API key and Clerk credentials.
 1) Backend:
-   OPENAI_API_KEY=your_openai_key
-   CLERK_SECRET_KEY=your_clerk_secret_key
+   OPENAI_API_KEY=your_openai_key, 
+   CLERK_SECRET_KEY=your_clerk_secret_key, 
    CLERK_WEBHOOK_SECRET=your_clerk_webhook_secret
 
 
