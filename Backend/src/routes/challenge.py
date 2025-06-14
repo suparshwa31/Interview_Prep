@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException, Request
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
 
-from ..Ai_generator import generate_challenge_with_ai
+from ..ai_generator import generate_challenge_with_ai
 from ..database.db import (
     get_challenge_quota,
     create_challenge,

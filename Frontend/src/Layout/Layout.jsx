@@ -1,12 +1,12 @@
 import "react"
-import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react"
-import { Outlet, Link, Navigate } from "react-router-dom"
+import {SignedIn, SignedOut, UserButton} from "@clerk/clerk-react"
+import {Outlet, Link, Navigate} from "react-router-dom"
 
 export function Layout() {
-    return <div className="app-Layout">
+    return <div className="app-layout">
         <header className="app-header">
             <div className="header-content">
-                <h1> Interview Prep</h1>
+                <h1>Code Challenge Generator</h1>
                 <nav>
                     <SignedIn>
                         <Link to="/">Generate Challenge</Link>
