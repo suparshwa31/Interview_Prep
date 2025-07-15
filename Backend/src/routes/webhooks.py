@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Request, HTTPException, Depends
-from ..database.db import create_challenge_quota
-from ..database.models import get_db
+from database.db import create_challenge_quota
+from database.models import get_db
 from svix.webhooks import Webhook
 import os
 import json
