@@ -5,6 +5,7 @@ export const useApi = () => {
 
     const makeRequest = async (endpoint, options = {}) => {
         const token = await getToken()
+        console.log("JWT Token: ", token)
         const defaultOptions = {
             headers: {
                 "Content-Type": "application/json",
