@@ -12,7 +12,7 @@ export const useApi = () => {
             }
         }
 
-        const response = await fetch(`http://localhost:8000/api/${endpoint}`, {
+        const response = await fetch(`https://interview-prep-backend-sigma.vercel.app/api/${endpoint}`, {
             ...defaultOptions,
             ...options,
         })
