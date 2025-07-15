@@ -1,5 +1,5 @@
 from fastapi import HTTPException
-from clerk_backend_api import Clerk, AuthenticateRequestOptions, ClerkException
+from clerk_backend_api import Clerk, AuthenticateRequestOptions
 import os
 from dotenv import load_dotenv
 
@@ -27,9 +27,10 @@ def authenticate_and_get_user_details(request):
         user_id = request_state.payload.get("sub")
         return {"user_id": user_id}
 
-    except ClerkException as e:
-        # SDK specific errors, treat as auth failure
-        raise HTTPException(status_code=401, detail="Authentication failed: " + str(e))
     except Exception as e:
-        # Other unexpected errors
-        raise HTTPException(status_code=500, detail="Internal server error")
+        # Check if error relates to authentication failure
+        error_msg = str(e).lower()
+        if "unauthorized" in error_msg or "invalid" in error_msg or "token" in error_msg:
+            raise HTTPException(status_code=401, detail="Authentication failed: " + str(e))
+        else:
+            raise HTTPException(status_code=500, detail="Internal server error")
