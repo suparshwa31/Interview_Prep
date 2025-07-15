@@ -12,7 +12,7 @@ export const useApi = () => {
             }
         }
 
-        const response = await fetch(`https://interview-prep-backend-sigma.vercel.app/api/${endpoint}`, {
+        const response = await fetch(`https://interview-prep-qs1y.onrender.com/api/${endpoint}`, {
             ...defaultOptions,
             ...options,
         })
