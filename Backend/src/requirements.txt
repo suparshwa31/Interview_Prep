@@ -5,3 +5,4 @@ python-dotenv
 clerk-sdk 
 openai
 clerk_backend_api
+svix
