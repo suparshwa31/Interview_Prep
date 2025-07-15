@@ -13,9 +13,9 @@ def authenticate_and_get_user_details(request):
             request,
             AuthenticateRequestOptions(
                 authorized_parties=[
-                    "https://interview-prep-gray-eta.vercel.app/",
-                    "https://interview-prep-suparshwa31s-projects.vercel.app/",
-                    "https://interview-prep-git-main-suparshwa31s-projects.vercel.app/"
+                    "https://interview-prep-gray-eta.vercel.app",
+                    "https://interview-prep-suparshwa31s-projects.vercel.app",
+                    "https://interview-prep-git-main-suparshwa31s-projects.vercel.app"
                 ],
                 jwt_key=os.getenv("JWT_KEY")
             )
